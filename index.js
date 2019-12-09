@@ -9,7 +9,7 @@ function nowServing(people) {
     return 'There is nobody waiting to be served!'
   }
 
-  return `Currently serving ${people.shift()}.`
+  return 'Currently serving ${people.shift()}.'
 }
 
 function currentLine(people) {
